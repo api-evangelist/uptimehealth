@@ -1,0 +1,10 @@
+generated: '2026-07-21'
+method: none
+source: registry searches 2026-07-21
+note: >-
+  No first-party client libraries found. Searched npm
+  (registry.npmjs.org/-/v1/search?text=uptimehealth — empty), PyPI, and the
+  GitHub user/org search (api.github.com/search/users?q=uptimehealth —
+  total_count 0). UptimeHealth publishes no public API, SDKs, or developer
+  packages; its platform (uptimecontroller.com) is a closed SaaS application.
+packages: []

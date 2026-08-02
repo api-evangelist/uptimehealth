@@ -1,0 +1,23 @@
+# UptimeHealth
+
+> UptimeHealth is a healthcare operations platform for managing medical equipment service, compliance documentation, and facility maintenance across dental, medical, and veterinary practices from a single dashboard. It tracks devices, automates compliance tasks and logs, and coordinates repair service requests; the company reports 73,000+ devices protected across 6,000+ facilities. UptimeHealth publishes no public developer API, SDKs, or API documentation — its platform (uptimecontroller.com) is a closed SaaS application.
+
+## Company
+
+- [Website](https://www.uptimehealth.com/): UptimeHealth homepage
+- [About](https://www.uptimehealth.com/about): Company background
+- [Pricing](https://www.uptimehealth.com/pricing): Plans and sign-up
+- [Blog](https://www.uptimehealth.com/blog): Company blog
+- [Partners](https://www.uptimehealth.com/partners): Alliance partner directory
+- [Help Center](https://wiki.uptimehealth.com): Product help center (accounts, dashboards, facilities, devices, tasks, logs, service requests)
+- [Contact Support](https://www.uptimehealth.com/contact-support): Support contact
+- [App Login](https://uptimecontroller.com/app/login): UptimeHealth application (UptimeController)
+
+## Legal
+
+- [Terms and Conditions](https://www.uptimehealth.com/terms-and-conditions)
+- [Privacy Policy](https://www.uptimehealth.com/privacy-policy)
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/uptimehealth/refs/heads/main/apis.yml): APIs.json machine-readable profile (no public APIs indexed)

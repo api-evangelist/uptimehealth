@@ -1,0 +1,58 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.uptimehealth.com, https://uptimecontroller.com, https://wiki.uptimehealth.com
+note: >-
+  No real /.well-known/ documents found. uptimecontroller.com (the UptimeHealth
+  app host) returns HTTP 200 for every path from an SPA catch-all router — the
+  security.txt response was verified to be the HTML app shell, not an RFC 9116
+  document — so its 200s are recorded as soft-404.
+hosts:
+  - host: https://www.uptimehealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+  - host: https://uptimecontroller.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        soft_404: true
+        note: SPA catch-all returns HTML app shell, not a security.txt
+      - path: /.well-known/openid-configuration
+        status: 200
+        soft_404: true
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        soft_404: true
+      - path: /.well-known/api-catalog
+        status: 200
+        soft_404: true
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        soft_404: true
+      - path: /llms.txt
+        status: 200
+        soft_404: true
+  - host: https://wiki.uptimehealth.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
